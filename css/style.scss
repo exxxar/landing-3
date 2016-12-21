@@ -653,7 +653,7 @@ body {
 	height: 235px;
 	min-width: $centerWidth;
 	padding: 0px;
-	width:100%;
+	width: 100%;
 	clear: both;
 	background: url('../img/section-6-bg.jpg') center no-repeat;
 	background-size: cover;
@@ -695,7 +695,7 @@ body {
 		background: #dedbe7;
 		width: 586px;
 		height: 235px;
-		float:left;
+		float: left;
 		.home {
 			float: left;
 		}
@@ -715,26 +715,25 @@ body {
 				text-align: center;
 				line-height: 150%;
 				width: 100%;
-				padding-top:20px;
+				padding-top: 20px;
 			}
 			p {
 				font-size: 9pt;
 				text-align: center;
 				line-height: 150%;
 				width: 100%;
-				padding-top:20px;
+				padding-top: 20px;
 			}
 		}
 	}
 	.right {
 		width: 290px;
 		background: #e8e7ef;
-		float:left;
+		float: left;
+		height: 235px;
 		form {
-	
 			box-sizing: border-box;
 			padding: 30px 30px 30px 30px;
-
 			h3 {
 				color: white;
 				font-size: 18pt;
