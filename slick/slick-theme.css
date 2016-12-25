@@ -48,8 +48,10 @@
 {
     color: transparent;
     outline: none;
-    background-color: #ff8e00;
+    background-color: #ff8e00 !important;
 }
+
+
 .slick-prev:hover:before,
 .slick-prev:focus:before,
 .slick-next:hover:before,
@@ -82,6 +84,12 @@
     left: -100px;
 	background: url('../img/arr-prew.png') center no-repeat;
 }
+
+.white .slick-prev
+{
+    left: -100px;
+	background: url('../img/arr-prew-w.png') center no-repeat;
+}
 [dir='rtl'] .slick-prev
 {
     right: -25px;
@@ -100,6 +108,12 @@
 {
     right: -100px;
 	background: url('../img/arr-next.png') center no-repeat;
+}
+
+.white .slick-next
+{
+    right: -100px;
+	background: url('../img/arr-next-w.png') center no-repeat;
 }
 [dir='rtl'] .slick-next
 {
@@ -124,7 +138,8 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    bottom: -57px;
+    left: 0px;
 
     display: block;
 
@@ -142,7 +157,7 @@
 
     display: inline-block;
 
-    width: 20px;
+    width: 43px;
     height: 20px;
     margin: 0 5px;
     padding: 0;
@@ -156,7 +171,7 @@
 
     display: block;
 
-    width: 20px;
+    width: 43px;
     height: 20px;
     padding: 5px;
 
@@ -176,6 +191,7 @@
 .slick-dots li button:focus:before
 {
     opacity: 1;
+	background: orange;
 }
 .slick-dots li button:before
 {
@@ -187,13 +203,13 @@
     top: 0;
     left: 0;
 
-    width: 20px;
-    height: 20px;
+    width: 42px;
+    height: 5px;
 
-    content: '•';
+    content: '';
     text-align: center;
 
-    opacity: .25;
+	background: white;
     color: black;
 
     -webkit-font-smoothing: antialiased;
@@ -203,4 +219,6 @@
 {
     opacity: .75;
     color: black;
+	background: orange;
 }
+
