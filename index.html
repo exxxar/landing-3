@@ -36,8 +36,9 @@
 					<p>Москва</p>
 				</div>
 			</div>
+			
 			<div class="btn">
-				<p>ЗАКАЗАТЬ ЗВОНОК</p>
+				<a href="#ex1" rel="modal:open"><p>ЗАКАЗАТЬ ЗВОНОК</p></a>
 			</div>
 		</div>
 	</header>
@@ -754,6 +755,7 @@
 							<div class="play"></div>
 						</div>
 					</div>
+					
 				</div>
 				<div class="video-present">
 					<div class="inner"> <img src="img/after.jpg">
@@ -940,6 +942,12 @@
 					console.log(d);
 				});
 				event.preventDefault();
+			});
+			
+			$('.play').click(function() {
+				var player = $( this ).find( "video" );
+				console.log("do it");
+				player.paused ? player.play() : player.pause();
 			});
 		});
 	</script>
