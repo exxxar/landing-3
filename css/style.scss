@@ -61,6 +61,11 @@ body {
 		transform: translateY(2px);
 		transition: .3s;
 	}
+	
+	A {
+		text-decoration: none;
+		color:white;
+	}
 }
 
 @mixin button2($w, $h) {
@@ -84,6 +89,8 @@ body {
 		transform: translateY(2px);
 		transition: .3s;
 	}
+	
+		
 }
 
 input {
@@ -617,7 +624,18 @@ input {
 					margin-top: 25px;
 					position: relative;
 					cursor: pointer;
-					&:active {}
+					&:active {
+						background: $orange-1;
+						color:white;
+						a {
+							color:white;
+						}
+					}
+					
+					A {
+		text-decoration: none;
+		color:$blue-1;
+	}
 				}
 			}
 			.new-project {
@@ -640,6 +658,10 @@ input {
 					@include button2(260px,
 					50px);
 					margin: auto;
+					a {
+						text-decoration: none;
+						color:white;
+					}
 				}
 			}
 		}
@@ -1408,34 +1430,37 @@ input {
 			position: relative;
 			width: 100%;
 			margin-top: 10px;
-			
 			.row-item-1 {
 				width: 360px;
 				height: 100%;
 				text-align: center;
 				float: left;
-				height:100%;
-				background: rgba(255,255,255,0.6);
+				height: 100%;
+				background: rgba(255, 255, 255, 0.6);
 				box-sizing: border-box;
 				h1 {
-					font-family: 'OpenSansSemiBold';
 					color: white;
 					line-height: 150%;
 					position: relative;
 					width: 100%;
 					font-size: 36pt;
 					margin-top: 5pt;
-					display: table-cell;
-	vertical-align: middle;
+					font-weight: bold;
+					font-style: normal;
+					font-family: 'OpenSansBold';
+					float: left;
+					width: 85px;
+					line-height: 52px;
 				}
 				p {
 					font-family: 'OpenSansRegular';
-					color: white;
-					line-height: 150%;
-					position: relative;
-					width: 100%;
+					color: white;					
 					font-size: 14pt;
 					margin-top: 5pt;
+					float: left;
+					width: 215px;
+					line-height: 143%;
+					text-align: left;
 				}
 				hr {
 					width: 69px;
@@ -1444,18 +1469,21 @@ input {
 					border: none;
 					margin-top: 6px;
 				}
+				
+			
+			
 			}
 			.row-item-2 {
 				width: 360px;
 				height: 100%;
 				text-align: center;
 				float: left;
-				background: rgba(255,255,255,0.9);
+				background: rgba(255, 255, 255, 0.9);
 				display: table;
 				box-sizing: border-box;
 				p {
-					color:$blue-1;
-					font-size:13pt;
+					color: $blue-1;
+					font-size: 13pt;
 					line-height: 150%;
 					font-family: 'OpenSansRegular';
 					text-align: left;
@@ -1470,11 +1498,11 @@ input {
 				text-align: center;
 				float: left;
 				background: $orange-1;
-				padding:10px;
+				padding: 10px;
 				box-sizing: border-box;
 				p {
-					color:white;
-					font-size:13pt;
+					color: white;
+					font-size: 13pt;
 					line-height: 150%;
 					font-family: 'OpenSansRegular';
 					text-align: left;
@@ -1483,36 +1511,86 @@ input {
 					}
 				}
 			}
-			
-				
 		}
-		
 		.r-1 {
-			height:232px;
-
+			height: 208px;
+			.row-item-1 {
+				padding: 75px 20px 40px 40px;
+				
+			}
+			.row-item-2 {
+				padding: 60px 20px 30px 30px;
+			}
 		}
-		
 		.r-2 {
-			height:100px;
+			height: 100px;
+			.row-item-1 {
+				    padding: 20px 20px 20px 39px;
+			}
+			
+			.row-item-2 {
+				padding:36px 20px 30px 30px;
+			}
 		}
-		
 		.r-3 {
-			height:75px;
+			height: 75px;
+			.row-item-1 {
+				    padding: 5px 0px 5px 39px;
+			}
+			
+			.row-item-2 {
+				padding:24px 20px 12px 30px;
+			}
 		}
 		.r-4 {
-			height:100px;
+			height: 100px;
+			.row-item-1 {
+				padding:20px 0px 5px 39px;
+				p {
+					line-height: 272%;
+				}
+			}
+			
+			.row-item-2 {
+				padding:36px 20px 30px 30px;
+			}
 		}
-		
 		.r-5 {
-			height:75px;
+			height: 75px;
+			.row-item-1 {
+				padding: 5px 0px 5px 39px;
+				p {
+					line-height: 272%;
+				}
+			}
+			.row-item-2 {
+				padding:24px 20px 12px 30px;
+			}
 		}
-		
 		.r-6 {
-			height:130px;
+			height: 102px;
+			.row-item-1 {
+				padding: 26px 0px 5px 39px;
+			}
+			.row-item-2 {
+				padding:26px 20px 0px 30px;
+			}
 		}
-		
 		.r-7 {
-			height:80px;
+			height: 80px;
+			.row-item-1 {
+				padding: 10px 0px 5px 39px;
+				p{
+					line-height: 272%;
+				}
+			}
+			.row-item-2 {
+				padding:24px 20px 12px 30px;
+			}
+			
+			.row-item-3 {
+				    padding-top: 22px;
+			}
 		}
 	}
 }
@@ -2148,4 +2226,49 @@ input {
 			}
 		}
 	}
+}
+
+.modal {
+	h1 {
+			font-family: 'OpenSansSemiBold';
+			font-size: 24pt;
+			line-height: 150%;
+			color: $blue-1;
+			text-align: center;
+			b {
+				font-family: 'OpenSansSemiBold';
+			}
+		}
+		h6 {
+			font-family: 'OpenSansLight';
+			font-size: 18pt;
+			line-height: 115%;
+			color: $blue-1;
+			text-align: center;
+		}
+	
+		form {
+			padding-top: 30px;
+			input {
+				background: white;
+				@include placeholder($blue-1);
+				border:1px $blue-1 solid;
+				margin-bottom:10px;
+				width:100%;
+				color:$blue-1;
+			}
+			
+			.row {
+				width:260px;
+				position: relative;
+				margin: auto;
+				button {
+				
+				@include button(260px,
+				55px);
+				
+			}
+			}
+			
+		}
 }

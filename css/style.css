@@ -93,6 +93,9 @@ input {
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.59);
         transform: translateY(2px);
         transition: .3s; }
+      .header .section-center .btn A {
+        text-decoration: none;
+        color: white; }
 
 .footer,
 .section {
@@ -205,6 +208,9 @@ input {
           box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.59);
           transform: translateY(2px);
           transition: .3s; }
+        .section-1 .sub-1 form button A {
+          text-decoration: none;
+          color: white; }
     .section-1 .sub-1 p {
       width: 100%;
       font-family: "OpenSansRegular";
@@ -339,6 +345,9 @@ input {
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.59);
         transform: translateY(2px);
         transition: .3s; }
+      .section-3 .sc-2 button A {
+        text-decoration: none;
+        color: white; }
 
 .section-4 {
   height: 907px;
@@ -491,6 +500,9 @@ input {
           box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.59);
           transform: translateY(2px);
           transition: .3s; }
+        .section-4 .sc-2 form button A {
+          text-decoration: none;
+          color: white; }
 
 .section-5 {
   height: 1682px; }
@@ -582,6 +594,14 @@ input {
           margin-top: 25px;
           position: relative;
           cursor: pointer; }
+          .section-5 .sc-1 .group .project button:active {
+            background: #ff8e00;
+            color: white; }
+            .section-5 .sc-1 .group .project button:active a {
+              color: white; }
+          .section-5 .sc-1 .group .project button A {
+            text-decoration: none;
+            color: #211061; }
       .section-5 .sc-1 .group .new-project {
         width: 360px;
         margin-right: 10px;
@@ -618,6 +638,9 @@ input {
           .section-5 .sc-1 .group .new-project button:active {
             transform: translateY(2px);
             transition: .3s; }
+          .section-5 .sc-1 .group .new-project button a {
+            text-decoration: none;
+            color: white; }
 
 .section-6 {
   height: 235px;
@@ -743,6 +766,9 @@ input {
           box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.59);
           transform: translateY(2px);
           transition: .3s; }
+        .section-6 .right form button A {
+          text-decoration: none;
+          color: white; }
 
 .section-7 {
   height: 1220px; }
@@ -864,6 +890,9 @@ input {
           box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.59);
           transform: translateY(2px);
           transition: .3s; }
+        .section-7 .sc-1 .row button A {
+          text-decoration: none;
+          color: white; }
 
 .section-8 {
   height: 450px;
@@ -1005,6 +1034,9 @@ input {
               box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.59);
               transform: translateY(2px);
               transition: .3s; }
+            .section-8 .sc-1 form .row .send button A {
+              text-decoration: none;
+              color: white; }
 
 .section-9 {
   height: 595px; }
@@ -1116,6 +1148,9 @@ input {
           box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.59);
           transform: translateY(2px);
           transition: .3s; }
+        .section-10 .sc-1 form button A {
+          text-decoration: none;
+          color: white; }
 
 .section-11 {
   height: 696px;
@@ -1316,6 +1351,9 @@ input {
           box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.59);
           transform: translateY(2px);
           transition: .3s; }
+        .section-13 .sc-1 form button A {
+          text-decoration: none;
+          color: white; }
 
 .section-14 {
   height: 995px;
@@ -1434,23 +1472,27 @@ input {
         background: rgba(255, 255, 255, 0.6);
         box-sizing: border-box; }
         .section-15 .sc-1 .row-2 .row-item-1 h1 {
-          font-family: 'OpenSansSemiBold';
           color: white;
           line-height: 150%;
           position: relative;
           width: 100%;
           font-size: 36pt;
           margin-top: 5pt;
-          display: table-cell;
-          vertical-align: middle; }
+          font-weight: bold;
+          font-style: normal;
+          font-family: 'OpenSansBold';
+          float: left;
+          width: 85px;
+          line-height: 52px; }
         .section-15 .sc-1 .row-2 .row-item-1 p {
           font-family: 'OpenSansRegular';
           color: white;
-          line-height: 150%;
-          position: relative;
-          width: 100%;
           font-size: 14pt;
-          margin-top: 5pt; }
+          margin-top: 5pt;
+          float: left;
+          width: 215px;
+          line-height: 143%;
+          text-align: left; }
         .section-15 .sc-1 .row-2 .row-item-1 hr {
           width: 69px;
           height: 1px;
@@ -1490,19 +1532,55 @@ input {
           .section-15 .sc-1 .row-2 .row-item-3 p b {
             font-family: 'OpenSansSemiBold'; }
     .section-15 .sc-1 .r-1 {
-      height: 232px; }
+      height: 208px; }
+      .section-15 .sc-1 .r-1 .row-item-1 {
+        padding: 75px 20px 40px 40px; }
+      .section-15 .sc-1 .r-1 .row-item-2 {
+        padding: 60px 20px 30px 30px; }
     .section-15 .sc-1 .r-2 {
       height: 100px; }
+      .section-15 .sc-1 .r-2 .row-item-1 {
+        padding: 20px 20px 20px 39px; }
+      .section-15 .sc-1 .r-2 .row-item-2 {
+        padding: 36px 20px 30px 30px; }
     .section-15 .sc-1 .r-3 {
       height: 75px; }
+      .section-15 .sc-1 .r-3 .row-item-1 {
+        padding: 5px 0px 5px 39px; }
+      .section-15 .sc-1 .r-3 .row-item-2 {
+        padding: 24px 20px 12px 30px; }
     .section-15 .sc-1 .r-4 {
       height: 100px; }
+      .section-15 .sc-1 .r-4 .row-item-1 {
+        padding: 20px 0px 5px 39px; }
+        .section-15 .sc-1 .r-4 .row-item-1 p {
+          line-height: 272%; }
+      .section-15 .sc-1 .r-4 .row-item-2 {
+        padding: 36px 20px 30px 30px; }
     .section-15 .sc-1 .r-5 {
       height: 75px; }
+      .section-15 .sc-1 .r-5 .row-item-1 {
+        padding: 5px 0px 5px 39px; }
+        .section-15 .sc-1 .r-5 .row-item-1 p {
+          line-height: 272%; }
+      .section-15 .sc-1 .r-5 .row-item-2 {
+        padding: 24px 20px 12px 30px; }
     .section-15 .sc-1 .r-6 {
-      height: 130px; }
+      height: 102px; }
+      .section-15 .sc-1 .r-6 .row-item-1 {
+        padding: 26px 0px 5px 39px; }
+      .section-15 .sc-1 .r-6 .row-item-2 {
+        padding: 26px 20px 0px 30px; }
     .section-15 .sc-1 .r-7 {
       height: 80px; }
+      .section-15 .sc-1 .r-7 .row-item-1 {
+        padding: 10px 0px 5px 39px; }
+        .section-15 .sc-1 .r-7 .row-item-1 p {
+          line-height: 272%; }
+      .section-15 .sc-1 .r-7 .row-item-2 {
+        padding: 24px 20px 12px 30px; }
+      .section-15 .sc-1 .r-7 .row-item-3 {
+        padding-top: 22px; }
 
 .section-16 {
   height: 740px; }
@@ -1693,6 +1771,9 @@ input {
             box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.59);
             transform: translateY(2px);
             transition: .3s; }
+          .section-command .sc-1 .row-2 .btn button A {
+            text-decoration: none;
+            color: white; }
 
 .section-17 {
   height: 235px;
@@ -1742,6 +1823,9 @@ input {
           box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.59);
           transform: translateY(2px);
           transition: .3s; }
+        .section-17 .sc-1 form button A {
+          text-decoration: none;
+          color: white; }
     .section-17 .sc-1 .p-1 {
       width: 465px; }
       .section-17 .sc-1 .p-1 h1 {
@@ -2101,3 +2185,70 @@ input {
           box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.59);
           transform: translateY(2px);
           transition: .3s; }
+        .footer .sc-1 form button A {
+          text-decoration: none;
+          color: white; }
+
+.modal h1 {
+  font-family: 'OpenSansSemiBold';
+  font-size: 24pt;
+  line-height: 150%;
+  color: #211061;
+  text-align: center; }
+  .modal h1 b {
+    font-family: 'OpenSansSemiBold'; }
+.modal h6 {
+  font-family: 'OpenSansLight';
+  font-size: 18pt;
+  line-height: 115%;
+  color: #211061;
+  text-align: center; }
+.modal form {
+  padding-top: 30px; }
+  .modal form input {
+    background: white;
+    border: 1px #211061 solid;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #211061; }
+    .modal form input::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #211061; }
+    .modal form input::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #211061; }
+    .modal form input:-ms-input-placeholder {
+      /* IE 10+ */
+      color: #211061; }
+    .modal form input:-moz-placeholder {
+      /* Firefox 18- */
+      color: #211061; }
+  .modal form .row {
+    width: 260px;
+    position: relative;
+    margin: auto; }
+    .modal form .row button {
+      width: 260px;
+      height: 55px;
+      padding: 16px 0 16px 0;
+      font-family: 'OpenSansSemiBold';
+      box-sizing: border-box;
+      text-align: center;
+      color: white;
+      font-size: 12pt;
+      background: #e2e2e2;
+      background: -moz-linear-gradient(top, #ffaf00 50%, #ff8f00 70%, #ff6e00 100%);
+      background: -webkit-linear-gradient(top, #ffaf00 50%, #ff8f00 70%, #ff6e00 100%);
+      background: -o-linear-gradient(top, #ffaf00 50%, #ff8f00 70%, #ff6e00 100%);
+      background: -ms-linear-gradient(top, #ffaf00 50%, #ff8f00 70%, #ff6e00 100%);
+      background: linear-gradient(top, #ffaf00 50%, #ff8f00 70%, #ff6e00 100%);
+      border: 1px black solid;
+      box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.59);
+      cursor: pointer; }
+      .modal form .row button:active {
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.59);
+        transform: translateY(2px);
+        transition: .3s; }
+      .modal form .row button A {
+        text-decoration: none;
+        color: white; }

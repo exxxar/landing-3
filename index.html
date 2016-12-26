@@ -4,21 +4,24 @@
 <head>
 	<meta charset="utf-8" />
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
-	<title></title>
+	<title>Страничка</title>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<link href="css/reset.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="slick/slick.css" />
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
-	<link href="css/style.css" rel="stylesheet"> </head>
-<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-<link href="bower_components/lightbox2/src/css/lightbox.css" rel="stylesheet"> </head>
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link href="bower_components/lightbox2/src/css/lightbox.css" rel="stylesheet">
+	<link rel="stylesheet" href="bower_components/jquery-modal/jquery.modal.css" type="text/css" media="screen" />
+	<link rel="icon" href="faveicon.png">
+	</head>
 
 <body>
 	<header class="header">
 		<div class="section-center">
 			<div class="logo">
-				<a href=""><img src="img/logo.png" title="Главная страница"></a>
+				<a href="#ex1" rel="modal:open"><img src="img/logo.png" title="Главная страница"></a>
 			</div>
 			<div class="descritption">
 				<p> Компания по проектированию и продаже готовых проектов удобных частных домов и помощи в организации строительства по всей России. </p>
@@ -57,7 +60,7 @@
 					<input type="text" name="name" placeholder="Введите имя...">
 					<input type="email" name="email" placeholder="Введите E-mail...">
 					<input type="tel" name="phone" placeholder="Введите телефон..">
-					<button type="button">ОСТАВИТЬ ЗАЯВКУ</button>
+					<button type="submit">ОСТАВИТЬ ЗАЯВКУ</button>
 				</form>
 				<p>Оставьте заявку прямо сейчас и получите полный комплект проекта <strong>на 30% дешевле</strong> за счёт межсезонья.</p>
 			</div>
@@ -114,7 +117,7 @@
 				<h1>Дом строить около года, но оно того будет стоить)).</h1> </div>
 		</div>
 		<div class="section-center sc-2">
-			<button>ПОДРОБНЕЕ</button>
+			<a href="#ex1" rel="modal:open"><button>ПОДРОБНЕЕ</button></a>
 		</div>
 	</section>
 	<section class="section section-4">
@@ -141,7 +144,7 @@
 					<h3>СКАЧАТЬ<BR>КАТАЛОГ ПРОЕКТОВ</h3>
 					<input type="email" name="email" placeholder="Введите E-mail...">
 					<input type="text" name="name" placeholder="Введите имя...">
-					<button type="button">СКАЧАТЬ ВЕСЬ КАТАЛОГ</button>
+					<button type="submit">СКАЧАТЬ ВЕСЬ КАТАЛОГ</button>
 				</form>
 			</div>
 		</div>
@@ -159,7 +162,7 @@
 					<p> в современном стиле для <strong>большой семьи</strong>.
 						<br> Огромная гостиная гостиной с верхним светом,
 						<br> гаражом на 2 авто и пятью отдельными комнатами. </p> <img src="img/d1.jpg" alt="дом с бассейном">
-					<button>РАССЧИТАТЬ СТОИМОСТЬ</button>
+					<a href="#ex1" rel="modal:open"><button>РАССЧИТАТЬ СТОИМОСТЬ</button></a>
 				</div>
 				<div class="project">
 					<hr>
@@ -167,14 +170,14 @@
 					<p> Дом на вырост, выполненный в итальянском стиле.
 						<br> Возможно пристроить от 1 до 6 спальных комнат,
 						<br> гараж и крытую террасу . </p> <img src="img/d2.jpg" alt="дом с бассейном">
-					<button>РАССЧИТАТЬ СТОИМОСТЬ</button>
+					<a href="#ex1" rel="modal:open"><button>РАССЧИТАТЬ СТОИМОСТЬ</button></a>
 				</div>
 				<div class="project">
 					<hr>
 					<h1>ПРОЕКТ ДОМА - <B>C-04</B></h1>
 					<p> Дом выполнен в колониальном стиле.
 						<br> Наличие 3 спален, 3 ванных, 2 гардероба, прачечная… </p> <img src="img/d3.jpg" alt="дом с бассейном">
-					<button>РАССЧИТАТЬ СТОИМОСТЬ</button>
+					<a href="#ex1" rel="modal:open"><button>РАССЧИТАТЬ СТОИМОСТЬ</button></a>
 				</div>
 				<div class="project">
 					<hr>
@@ -182,7 +185,7 @@
 					<p> Большой дом в классическом стиле.
 						<br> 3 спальни, кабинет, огромная гостиная,
 						<br> лаунж зона, гардеробные, сауна… </p> <img src="img/d4.jpg" alt="дом с бассейном">
-					<button>РАССЧИТАТЬ СТОИМОСТЬ</button>
+					<button><a href="#ex1" rel="modal:open">РАССЧИТАТЬ СТОИМОСТЬ</a></button>
 				</div>
 				<div class="project">
 					<hr>
@@ -190,11 +193,11 @@
 					<p> Дом на вырост, выполненный в современном стиле.
 						<br> Гардеробные, прачечная, возможность строительства
 						<br> с одной или тремя спальнями… </p> <img src="img/d5.jpg" alt="дом с бассейном">
-					<button>РАССЧИТАТЬ СТОИМОСТЬ</button>
+					<a href="#ex1" rel="modal:open"><button>РАССЧИТАТЬ СТОИМОСТЬ</button></a>
 				</div>
 				<div class="new-project">
 					<h1>ИНДИВИДУАЛЬНЫЙ<BR>ЗАКАЗ</h1>
-					<button type="button">ЗАДАТЬ ВОПРОС</button>
+					<a href="#ex1" rel="modal:open"><button>ЗАДАТЬ ВОПРОС</button></a>
 				</div>
 			</div>
 		</div>
@@ -220,7 +223,7 @@
 				<form>
 					<input type="email" name="email" placeholder="Введите E-mail...">
 					<input type="text" name="name" placeholder="Введите имя...">
-					<button type="button">СКАЧАТЬ ВЕСЬ КАТАЛОГ</button>
+					<button type="submit">СКАЧАТЬ ВЕСЬ КАТАЛОГ</button>
 				</form>
 			</div>
 		</div>
@@ -284,7 +287,7 @@
 			<h2>В ПОЛНЫЙ ПАКЕТ ДОКУМЕНТАЦИИ ВХОДЯТ:</h2>
 			<p>Посмотреть что входит в полный комплект проекта</p>
 			<div class="row">
-				<button type="button">ПОСМОТРЕТЬ</button>
+				<a href="#ex1" rel="modal:open"><button>ПОСМОТРЕТЬ</button></a>
 			</div>
 		</div>
 	</section>
@@ -307,7 +310,7 @@
 							<input type="checkbox" id="isAsccept1" />
 							<label for="isAsccept1">Нажав кнопку "задать вопрос" я даю согласия на обработку моих персональных данных компанией "Дом1год" и согласен условиями публичной оферты. "</label>
 						</div>
-						<button type="button">ЗАДАТЬ ВОПРОС</button>
+						<button type="submit">ЗАДАТЬ ВОПРОС</button>
 					</div>
 				</div>
 			</form>
@@ -361,7 +364,7 @@
 			<form>
 				<input type="text" name="name" placeholder="Введите имя...">
 				<input type="tel" name="phone" placeholder="Введите телефон..">
-				<button type="button">ПОЛУЧИТЬ СКИДКУ</button>
+				<button type="submit">ПОЛУЧИТЬ СКИДКУ</button>
 			</form>
 		</div>
 	</section>
@@ -427,7 +430,7 @@
 				<input type="text" name="name" placeholder="Введите имя...">
 				<input type="email" name="email" placeholder="Введите E-mail..">
 				<input type="tel" name="phone" placeholder="Введите телефон..">
-				<button type="button">ОСТАВИТЬ ЗАЯВКУ</button>
+				<button type="submit">ОСТАВИТЬ ЗАЯВКУ</button>
 			</form>
 		</div>
 	</section>
@@ -461,7 +464,6 @@
 			<h1>Давайте сравним,<br> как делаем свою работу мы и другие</h1>
 			<hr>
 			<div class="row">
-				
 				<div class="row-item">
 					<p>ТАК РАБОТАЕМ МЫ</p>
 					<hr> </div>
@@ -576,43 +578,45 @@
 			<h1>«Дом1год»: нам доверяют ежегодно</h1>
 			<h2>более 100 клиентов</h2>
 			<hr>
-			<p>Команда компании «Дом1год» специализируется на разработке готовых проектов частных домов.<br>
-			Наше предложение охватывает все сегменты, начиная от бюджетного и заканчивая классом «Премиум».<br> В своей работе мы ориентируемся исключительно на потребности клиентов, поэтому наши проекты — максимально<br> комфортное гармоничное сочетание классических технологий экологичного строительства и современных<br> архитектурно-строительных тенденций, способное в полной мере удовлетворить ежедневные насущные потребности<br> людей. </p>
+			<p>Команда компании «Дом1год» специализируется на разработке готовых проектов частных домов.
+				<br> Наше предложение охватывает все сегменты, начиная от бюджетного и заканчивая классом «Премиум».
+				<br> В своей работе мы ориентируемся исключительно на потребности клиентов, поэтому наши проекты — максимально
+				<br> комфортное гармоничное сочетание классических технологий экологичного строительства и современных
+				<br> архитектурно-строительных тенденций, способное в полной мере удовлетворить ежедневные насущные потребности
+				<br> людей. </p>
 			<div class="row">
 				<div class="item">
 					<h1>12</h1>
 					<hr>
 					<p>
-						<B>ЛЕТ НА РЫНКЕ</B><BR>
-						ПРОЕКТИРОВАНИЯ<BR>ЖИЛЫХ ДОМОВ.
-					</p>
+						<B>ЛЕТ НА РЫНКЕ</B>
+						<BR> ПРОЕКТИРОВАНИЯ
+						<BR>ЖИЛЫХ ДОМОВ. </p>
 				</div>
-						
 				<div class="item">
 					<h1>18</h1>
 					<hr>
 					<p>
-						<B>СПЕЦИАЛИСТОВ</B><BR>
-						ЭКСПЕРТНОГО<BR>УРОВНЯ В ШТАТЕ.
-					</p>
+						<B>СПЕЦИАЛИСТОВ</B>
+						<BR> ЭКСПЕРТНОГО
+						<BR>УРОВНЯ В ШТАТЕ. </p>
 				</div>
-						
 				<div class="item">
 					<h1>400+</h1>
 					<hr>
 					<p>
-						<B>ГОТОВЫХ ПРОЕКТОВ</B><BR>
-						ПРЕДЛАГАЕТСЯ<BR>НАШИМ КЛИЕНТАМ.
-					</p>
+						<B>ГОТОВЫХ ПРОЕКТОВ</B>
+						<BR> ПРЕДЛАГАЕТСЯ
+						<BR>НАШИМ КЛИЕНТАМ. </p>
 				</div>
-						
 				<div class="item">
 					<h1>100%</h1>
 					<hr>
 					<p>
-						<B>ГАРАНТИИ</B> КАЧЕСТВА<BR>
-						БЕЗОПАСНОСТИ<BR>УДОБСТВА<BR>ДОЛГОВЕЧНОСТИ.
-					</p>
+						<B>ГАРАНТИИ</B> КАЧЕСТВА
+						<BR> БЕЗОПАСНОСТИ
+						<BR>УДОБСТВА
+						<BR>ДОЛГОВЕЧНОСТИ. </p>
 				</div>
 			</div>
 		</div>
@@ -620,14 +624,10 @@
 	<section class="section section-year">
 		<div class="section-center sc-1">
 			<div class="left">
-				<h1>1 год</h1>
-			</div>
-			
+				<h1>1 год</h1> </div>
 			<div class="right">
-				<p>
-					составляет срок строительства домов по нашим проектам<br>
-при соблюдении пошаговых рекомендаций. 
-				</p>
+				<p> составляет срок строительства домов по нашим проектам
+					<br> при соблюдении пошаговых рекомендаций. </p>
 			</div>
 		</div>
 	</section>
@@ -636,8 +636,7 @@
 			<h1>Наша команда</h1>
 			<hr>
 			<div class="row">
-				<div class="item">
-					<img src="img/juk.jpg">
+				<div class="item"> <img src="img/juk.jpg">
 					<hr>
 					<h4>Эдуард Жук</h4>
 					<h5>РУКОВОДИТЕЛЬ</h5>
@@ -645,41 +644,33 @@
 						<p>Основатель компании «Дом1год», мозг нашей команды, вырабатывающий идеи с космической скоростью. </p>
 					</div>
 				</div>
-				
-				<div class="item">
-					<img src="img/garaz.jpg">
+				<div class="item"> <img src="img/garaz.jpg">
 					<hr>
 					<h4>Владимир Гараз</h4>
 					<h5>АРХИТЕКТОР</h5>
 					<div class="description">
-						<p>Над каждым проектом работает так, словно готовится строить свой будущий дом.  </p>
+						<p>Над каждым проектом работает так, словно готовится строить свой будущий дом. </p>
 					</div>
 				</div>
-				
-				<div class="item">
-					<img src="img/nosov.jpg">
+				<div class="item"> <img src="img/nosov.jpg">
 					<hr>
 					<h4>Михаил Носов</h4>
 					<h5>АРХИТЕКТОР</h5>
 					<div class="description">
-						<p>При работе над очередным проектом способен увидеть, как строится этот дом и каким он будет через 10, 30, 50 лет.  </p>
+						<p>При работе над очередным проектом способен увидеть, как строится этот дом и каким он будет через 10, 30, 50 лет. </p>
 					</div>
 				</div>
 			</div>
-			
 			<div class="row">
-				<div class="item">
-					<img src="img/viktorov.jpg">
+				<div class="item"> <img src="img/viktorov.jpg">
 					<hr>
 					<h4>Андрей Викторов</h4>
 					<h5>КОНСТРУКТОР</h5>
 					<div class="description">
-						<p>В своей работе больше всего ценит возможность приносить людям реальную пользу.  </p>
+						<p>В своей работе больше всего ценит возможность приносить людям реальную пользу. </p>
 					</div>
 				</div>
-				
-				<div class="item">
-					<img src="img/andreeva.jpg">
+				<div class="item"> <img src="img/andreeva.jpg">
 					<hr>
 					<h4>Алеся Андреева</h4>
 					<h5>КОНСТРУКТОР</h5>
@@ -687,9 +678,7 @@
 						<p>Настоящая фея нашей команды, способная вдохнуть в любой проект магическое тепло. </p>
 					</div>
 				</div>
-				
-				<div class="item">
-					<img src="img/pilipenko.jpg">
+				<div class="item"> <img src="img/pilipenko.jpg">
 					<hr>
 					<h4>Андрей Пилипенко</h4>
 					<h5>АРХИТЕКТОР</h5>
@@ -698,10 +687,9 @@
 					</div>
 				</div>
 			</div>
-			
 			<div class="row-2">
 				<div class="btn">
-					<button type="button">ЕЩЕ 12 СОТРУДНИКОВ</button>
+					<button type="submit">ЕЩЕ 12 СОТРУДНИКОВ</button>
 				</div>
 			</div>
 		</div>
@@ -718,7 +706,7 @@
 			<form>
 				<input type="email" placeholder="Введите E-mail...">
 				<input type="text" placeholder="Введите имя...">
-				<button type="button">СКАЧАТЬ ВЕСЬ КАТАЛОГ</button>
+				<button type="submit">СКАЧАТЬ ВЕСЬ КАТАЛОГ</button>
 			</form>
 		</div>
 	</section>
@@ -901,16 +889,30 @@
 				<input type="text" name="name" placeholder="Введите имя...">
 				<input type="email" name="email" placeholder="Введите E-mail...">
 				<input type="tel" name="phone" placeholder="Введите телефон..">
-				<button type="button">ОСТАВИТЬ ЗАЯВКУ</button>
+				<button type="submit">ОСТАВИТЬ ЗАЯВКУ</button>
 			</form>
 		</div>
 	</footer>
+	<div class="modal" id="ex1" style="display:none;">
+		<h1>ЗАКАЗЫВАЕМ СО СКИДКОЙ!</h1>
+				<h6>Готовь сани летом, а проект в межсезонье!)</h6>
+				<form>
+					<input type="text" name="name" placeholder="Введите имя...">
+					<input type="email" name="email" placeholder="Введите E-mail...">
+					<input type="tel" name="phone" placeholder="Введите телефон..">
+					<div class="row">
+					<button type="submit">ОСТАВИТЬ ЗАЯВКУ</button>
+					</div>
+					
+				</form>
+	</div>
 	<!-- .footer -->
 	<!-- .wrapper -->
 	<SCRIPT type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></SCRIPT>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script src="bower_components/lightbox2/src/js/lightbox.js"></script>
+	<script src="bower_components/jquery-modal/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$('.slider-otziv').slick();
@@ -929,7 +931,16 @@
 			});
 			lightbox.option({
 				'showImageNumberLabel': false
-			})
+			});
+			$("form").submit(function (event) {
+				console.log($(this).serializeArray());
+				$.post("", {
+					data: $(this).serializeArray()
+				}, function (d) {
+					console.log(d);
+				});
+				event.preventDefault();
+			});
 		});
 	</script>
 </body>
