@@ -36,8 +36,9 @@
 					<p>Москва</p>
 				</div>
 			</div>
+			
 			<div class="btn">
-				<p>ЗАКАЗАТЬ ЗВОНОК</p>
+				<a href="#ex1" rel="modal:open"><p>ЗАКАЗАТЬ ЗВОНОК</p></a>
 			</div>
 		</div>
 	</header>
@@ -754,6 +755,7 @@
 							<div class="play"></div>
 						</div>
 					</div>
+					
 				</div>
 				<div class="video-present">
 					<div class="inner"> <img src="img/after.jpg">
@@ -914,7 +916,22 @@
 	<script src="bower_components/lightbox2/src/js/lightbox.js"></script>
 	<script src="bower_components/jquery-modal/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
+		function resize(){
+			console.log(document.documentElement.clientWidth);
+			console.log("body width"+document.getElementsByTagName('body')[0].clientWidth);
+			console.log(window.innerWidth);
+			
+			if (document.documentElement.clientWidth<1280&&document.documentElement.clientWidth>630)
+			document.body.style.zoom=document.documentElement.clientWidth/1280;
+			
+				if (document.documentElement.clientWidth>1280)
+				document.body.style.zoom = 1;
+				
+						if (document.documentElement.clientWidth<630)
+							document.body.style.zoom=0.48;
+		}
 		$(document).ready(function () {
+			resize();
 			$('.slider-otziv').slick();
 			$('.slider-expert').slick({
 				dots: true
@@ -941,8 +958,26 @@
 				});
 				event.preventDefault();
 			});
+			
+			$('.play').click(function() {
+				var player = $( this ).find( "video" );
+				console.log("do it");
+				player.paused ? player.play() : player.pause();
+			});
+			
+			
+			$(window).resize(function(){
+				resize();
+				
+			});
+
+			
 		});
-	</script>
+		
+	
+
+</script>
+	
 </body>
 
 </html>
