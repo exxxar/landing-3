@@ -213,6 +213,7 @@ input {
 			margin: 25px 0 20px 0;
 		}
 		p {
+			    clear: both;
 			width: 100%;
 			font-size: 17pt;
 			line-height: 150%;
@@ -270,6 +271,7 @@ input {
 			}
 		}
 		p {
+			    clear: both;
 			width: 100%;
 			font-family: "OpenSansRegular";
 			text-align: center;
@@ -337,6 +339,7 @@ input {
 		.left {
 			width: 300px;
 			float: left;
+			padding-left: 20px;
 			div {
 				height: 213px;
 				background: url('../img/oval-1.png') center no-repeat;

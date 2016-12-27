@@ -132,6 +132,7 @@ input {
       position: relative;
       margin: 25px 0 20px 0; }
     .section-1 .sc-1 p {
+      clear: both;
       width: 100%;
       font-size: 17pt;
       line-height: 150%;
@@ -212,6 +213,7 @@ input {
           text-decoration: none;
           color: white; }
     .section-1 .sub-1 p {
+      clear: both;
       width: 100%;
       font-family: "OpenSansRegular";
       text-align: center;
@@ -267,7 +269,8 @@ input {
       margin: auto; }
     .section-2 .sc-1 .left {
       width: 300px;
-      float: left; }
+      float: left;
+      padding-left: 20px; }
       .section-2 .sc-1 .left div {
         height: 213px;
         background: url("../img/oval-1.png") center no-repeat; }
