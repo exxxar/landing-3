@@ -23,7 +23,9 @@ input {
 
 .header {
   height: 135px;
-  background: white; }
+  background: white;
+  min-width: 1280px;
+  position: relative; }
   .header .section-center {
     width: 1280px;
     margin: 0 auto;
@@ -96,6 +98,22 @@ input {
       .header .section-center .btn A {
         text-decoration: none;
         color: white; }
+  @media (min-width: 769px) and (max-width: 1080px) {
+    .header {
+      height: 150px; }
+    .header .section-center {
+      width: 770px;
+      padding: 35px 0px 30px 0px; }
+      .header .section-center .logo img {
+        width: 150px; }
+      .header .section-center .descritption {
+        clear: both;
+        position: absolute;
+        bottom: 10px;
+        width: 770px;
+        font-size: 12pt; }
+      .header .section-center .phones {
+        padding: 5px 20px 0px 20px; } }
 
 .footer,
 .section {
@@ -222,6 +240,22 @@ input {
       color: white; }
       .section-1 .sub-1 p strong {
         color: #ff8e00; }
+  @media (min-width: 769px) and (max-width: 1080px) {
+    .section-1 .section-center {
+      width: 770px !important; }
+    .section-1 .sc-1 {
+      padding: 75px 0px 90px 0px; }
+    .section-1 .sub-1 .sc-2 {
+      padding: 35px 0px 20px 0px; }
+      .section-1 .sub-1 .sc-2 input {
+        width: 183px;
+        font-size: 10pt;
+        padding: 17px; }
+      .section-1 .sub-1 .sc-2 button {
+        width: 183px;
+        font-size: 10pt; }
+      .section-1 .sub-1 .sc-2 p {
+        font-size: 10pt; } }
 
 .section-2 {
   height: 887px;
@@ -290,6 +324,43 @@ input {
       padding: 0 20px 20px 20px; }
       .section-2 .sc-1 .r2 > p:nth-child(1) {
         padding-top: 0px; }
+  @media (min-width: 769px) and (max-width: 1080px) {
+    .section-2 .section-center {
+      width: 770px !important; }
+    .section-2 .sc-1 {
+      background-position: 129px 0px; }
+      .section-2 .sc-1 h2 {
+        font-size: 12pt; }
+      .section-2 .sc-1 .right div,
+      .section-2 .sc-1 .left div {
+        height: 156px !important;
+        background-size: contain; }
+      .section-2 .sc-1 .right,
+      .section-2 .sc-1 .left {
+        width: 200px; }
+        .section-2 .sc-1 .right > p,
+        .section-2 .sc-1 .left > p {
+          font-size: 10pt; }
+      .section-2 .sc-1 .circle {
+        width: 156px;
+        font-size: 10pt;
+        padding-top: 40px; }
+      .section-2 .sc-1 .r1 {
+        width: 100%;
+        position: relative;
+        box-sizing: border-box;
+        padding: 16px 50px 0px 5px; }
+        .section-2 .sc-1 .r1 .circle:nth-child(n) {
+          width: 170px !important;
+          font-size: 8pt;
+          background-size: contain; }
+        .section-2 .sc-1 .r1 .circle:nth-child(1) {
+          float: left;
+          font-size: 10pt;
+          padding-top: 50px; }
+        .section-2 .sc-1 .r1 .circle:nth-child(2) {
+          float: right;
+          padding-top: 35px; } }
 
 .section-3 {
   height: 689px;
@@ -2255,3 +2326,33 @@ input {
       .modal form .row button A {
         text-decoration: none;
         color: white; }
+
+/*-------------------------------------------------------------*/
+@media (min-width: 1281px) {
+  /*.header {
+  	background: black;
+  }*/ }
+@media (min-width: 1081px) and (max-width: 1280px) {
+  /*.footer,
+  .section,
+  .header {		
+  	min-width: 1080px;
+  }*/ }
+@media (min-width: 769px) and (max-width: 1080px) {
+  .footer,
+  .section,
+  .header {
+    min-width: 770px; } }
+@media (min-width: 481px) and (max-width: 768px) {
+  /*	.footer,
+  .section,
+  .header {		
+  	min-width: 485px;
+  }*/ }
+@media (max-width: 480px) {
+  /*.footer,
+  .section,
+  .header {		
+  	min-width: 400px;
+  }*/ }
+/*---------------------------------------------------------------*/

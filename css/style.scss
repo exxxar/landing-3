@@ -61,10 +61,9 @@ body {
 		transform: translateY(2px);
 		transition: .3s;
 	}
-	
 	A {
 		text-decoration: none;
-		color:white;
+		color: white;
 	}
 }
 
@@ -89,8 +88,6 @@ body {
 		transform: translateY(2px);
 		transition: .3s;
 	}
-	
-		
 }
 
 input {
@@ -113,6 +110,8 @@ input {
 .header {
 	height: 135px;
 	background: white;
+	min-width: $centerWidth;
+	position: relative;
 	.section-center {
 		@include center();
 		padding: 35px 50px 30px 50px;
@@ -172,6 +171,30 @@ input {
 			50px);
 		}
 	}
+	@media (min-width:769px) and (max-width:1080px) {
+		& {
+			height: 150px;
+		}
+		.section-center {
+			width: 770px;
+			padding: 35px 0px 30px 0px;
+			.logo {
+				img {
+					width: 150px;
+				}
+			}
+			.descritption {
+				clear: both;
+				position: absolute;
+				bottom: 10px;
+				width: 770px;
+				font-size: 12pt;
+			}
+			.phones {
+				padding: 5px 20px 0px 20px;
+			}
+		}
+	}
 }
 
 .footer,
@@ -213,7 +236,7 @@ input {
 			margin: 25px 0 20px 0;
 		}
 		p {
-			    clear: both;
+			clear: both;
 			width: 100%;
 			font-size: 17pt;
 			line-height: 150%;
@@ -271,7 +294,7 @@ input {
 			}
 		}
 		p {
-			    clear: both;
+			clear: both;
 			width: 100%;
 			font-family: "OpenSansRegular";
 			text-align: center;
@@ -280,6 +303,33 @@ input {
 			color: white;
 			strong {
 				color: $orange-1;
+			}
+		}
+	}
+	@media (min-width:769px) and (max-width:1080px) {
+		.section-center {
+			width: 770px !important;
+		}
+		.sc-1 {
+			padding: 75px 0px 90px 0px;
+		}
+		& {
+			.sub-1 {
+				.sc-2 {
+					padding: 35px 0px 20px 0px;
+					input {
+						width: 183px;
+						font-size: 10pt;
+						padding: 17px;
+					}
+					button {
+						width: 183px;
+						font-size: 10pt;
+					}
+					p {
+						font-size: 10pt;
+					}
+				}
 			}
 		}
 	}
@@ -365,6 +415,65 @@ input {
 			padding: 0 20px 20px 20px;
 			& > p:nth-child(1) {
 				padding-top: 0px;
+			}
+		}
+	}
+	@media (min-width:769px) and (max-width:1080px) {
+		.section-center {
+			width: 770px !important;
+		}
+		.sc-1 {
+			background-position: 129px 0px;
+			h2 {
+				font-size:12pt;
+			}
+			.right,
+			.left {
+				div {
+					height:156px !important;
+					background-size:contain;
+				}
+			}
+			
+			.right,
+			.left {
+				width:200px;
+				& > p {
+					font-size:10pt;
+				}
+			}
+			
+			
+			.circle {
+				
+				width:156px;
+			
+				font-size:10pt;
+				padding-top: 40px;
+			}
+			
+			.r1 {
+				width:100%;
+				position: relative;
+				box-sizing: border-box;
+				padding:16px 50px 0px 5px;
+				.circle:nth-child(n) {
+					width:170px !important;
+					
+					font-size:8pt;
+					
+					background-size: contain;
+				}
+				.circle:nth-child(1) {
+					float:left;
+					font-size:10pt;
+					padding-top:50px;
+				}
+				
+				.circle:nth-child(2) {
+					float:right;
+					padding-top:35px;
+				}
 			}
 		}
 	}
@@ -629,16 +738,15 @@ input {
 					cursor: pointer;
 					&:active {
 						background: $orange-1;
-						color:white;
+						color: white;
 						a {
-							color:white;
+							color: white;
 						}
 					}
-					
 					A {
-		text-decoration: none;
-		color:$blue-1;
-	}
+						text-decoration: none;
+						color: $blue-1;
+					}
 				}
 			}
 			.new-project {
@@ -663,7 +771,7 @@ input {
 					margin: auto;
 					a {
 						text-decoration: none;
-						color:white;
+						color: white;
 					}
 				}
 			}
@@ -1457,7 +1565,7 @@ input {
 				}
 				p {
 					font-family: 'OpenSansRegular';
-					color: white;					
+					color: white;
 					font-size: 14pt;
 					margin-top: 5pt;
 					float: left;
@@ -1472,9 +1580,6 @@ input {
 					border: none;
 					margin-top: 6px;
 				}
-				
-			
-			
 			}
 			.row-item-2 {
 				width: 360px;
@@ -1519,7 +1624,6 @@ input {
 			height: 208px;
 			.row-item-1 {
 				padding: 75px 20px 40px 40px;
-				
 			}
 			.row-item-2 {
 				padding: 60px 20px 30px 30px;
@@ -1528,34 +1632,31 @@ input {
 		.r-2 {
 			height: 100px;
 			.row-item-1 {
-				    padding: 20px 20px 20px 39px;
+				padding: 20px 20px 20px 39px;
 			}
-			
 			.row-item-2 {
-				padding:36px 20px 30px 30px;
+				padding: 36px 20px 30px 30px;
 			}
 		}
 		.r-3 {
 			height: 75px;
 			.row-item-1 {
-				    padding: 5px 0px 5px 39px;
+				padding: 5px 0px 5px 39px;
 			}
-			
 			.row-item-2 {
-				padding:24px 20px 12px 30px;
+				padding: 24px 20px 12px 30px;
 			}
 		}
 		.r-4 {
 			height: 100px;
 			.row-item-1 {
-				padding:20px 0px 5px 39px;
+				padding: 20px 0px 5px 39px;
 				p {
 					line-height: 272%;
 				}
 			}
-			
 			.row-item-2 {
-				padding:36px 20px 30px 30px;
+				padding: 36px 20px 30px 30px;
 			}
 		}
 		.r-5 {
@@ -1567,7 +1668,7 @@ input {
 				}
 			}
 			.row-item-2 {
-				padding:24px 20px 12px 30px;
+				padding: 24px 20px 12px 30px;
 			}
 		}
 		.r-6 {
@@ -1576,23 +1677,22 @@ input {
 				padding: 26px 0px 5px 39px;
 			}
 			.row-item-2 {
-				padding:26px 20px 0px 30px;
+				padding: 26px 20px 0px 30px;
 			}
 		}
 		.r-7 {
 			height: 80px;
 			.row-item-1 {
 				padding: 10px 0px 5px 39px;
-				p{
+				p {
 					line-height: 272%;
 				}
 			}
 			.row-item-2 {
-				padding:24px 20px 12px 30px;
+				padding: 24px 20px 12px 30px;
 			}
-			
 			.row-item-3 {
-				    padding-top: 22px;
+				padding-top: 22px;
 			}
 		}
 	}
@@ -2023,7 +2123,6 @@ input {
 			padding: 10px;
 			border: 1px white solid;
 			margin-top: 10px;
-		
 			.inner {
 				width: 100%;
 				height: 100%;
@@ -2234,45 +2333,84 @@ input {
 
 .modal {
 	h1 {
+		font-family: 'OpenSansSemiBold';
+		font-size: 24pt;
+		line-height: 150%;
+		color: $blue-1;
+		text-align: center;
+		b {
 			font-family: 'OpenSansSemiBold';
-			font-size: 24pt;
-			line-height: 150%;
-			color: $blue-1;
-			text-align: center;
-			b {
-				font-family: 'OpenSansSemiBold';
-			}
 		}
-		h6 {
-			font-family: 'OpenSansLight';
-			font-size: 18pt;
-			line-height: 115%;
+	}
+	h6 {
+		font-family: 'OpenSansLight';
+		font-size: 18pt;
+		line-height: 115%;
+		color: $blue-1;
+		text-align: center;
+	}
+	form {
+		padding-top: 30px;
+		input {
+			background: white;
+			@include placeholder($blue-1);
+			border: 1px $blue-1 solid;
+			margin-bottom: 10px;
+			width: 100%;
 			color: $blue-1;
-			text-align: center;
 		}
-	
-		form {
-			padding-top: 30px;
-			input {
-				background: white;
-				@include placeholder($blue-1);
-				border:1px $blue-1 solid;
-				margin-bottom:10px;
-				width:100%;
-				color:$blue-1;
-			}
-			
-			.row {
-				width:260px;
-				position: relative;
-				margin: auto;
-				button {
-				
+		.row {
+			width: 260px;
+			position: relative;
+			margin: auto;
+			button {
 				@include button(260px,
 				55px);
-				
 			}
-			}
-			
 		}
+	}
 }
+
+
+/*-------------------------------------------------------------*/
+
+@media (min-width:1281px) {
+	/*.header {
+		background: black;
+	}*/
+}
+
+@media (min-width:1081px) and (max-width:1280px) {
+	/*.footer,
+	.section,
+	.header {		
+		min-width: 1080px;
+	}*/
+}
+
+@media (min-width:769px) and (max-width:1080px) {
+	.footer,
+	.section,
+	.header {
+		min-width: 770px;
+	}
+}
+
+@media (min-width:481px) and (max-width:768px) {
+	/*	.footer,
+	.section,
+	.header {		
+		min-width: 485px;
+	}*/
+}
+
+@media (max-width:480px) {
+	/*.footer,
+	.section,
+	.header {		
+		min-width: 400px;
+	}*/
+}
+
+
+/*---------------------------------------------------------------*/
