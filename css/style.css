@@ -98,6 +98,27 @@ input {
       .header .section-center .btn A {
         text-decoration: none;
         color: white; }
+  @media (min-width: 1081px) and (max-width: 1280px) {
+    .header {
+      height: 160px; }
+    .header .section-center {
+      width: 1081px;
+      padding: 35px 70px 30px 70px; }
+      .header .section-center .logo img {
+        width: 217px; }
+      .header .section-center .descritption {
+        clear: both;
+        position: absolute;
+        bottom: 10px;
+        width: 1000px;
+        font-size: 12pt; }
+      .header .section-center .phones {
+        width: 433px;
+        padding: 5px 20px 0px 20px; }
+        .header .section-center .phones .line-1 {
+          font-size: 16pt; }
+      .header .section-center .btn {
+        width: 260px; } }
   @media (min-width: 769px) and (max-width: 1080px) {
     .header {
       height: 150px; }
@@ -114,6 +135,36 @@ input {
         font-size: 12pt; }
       .header .section-center .phones {
         padding: 5px 20px 0px 20px; } }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .header {
+      height: 195px; }
+    .header .section-center {
+      width: 485px;
+      padding: 15px 0px 30px 0px; }
+      .header .section-center .logo {
+        padding: 0px 0px 20px 0px;
+        position: relative;
+        width: 220px;
+        margin: auto;
+        float: none; }
+        .header .section-center .logo img {
+          width: 220px; }
+      .header .section-center .descritption {
+        display: none; }
+      .header .section-center .phones {
+        width: 433px;
+        position: relative;
+        height: 50px;
+        float: none;
+        margin: auto;
+        padding: 5px 20px 0px 20px; }
+        .header .section-center .phones .line-1 {
+          font-size: 16pt; }
+      .header .section-center .btn {
+        width: 260px;
+        margin: auto;
+        position: relative;
+        float: none; } }
 
 .footer,
 .section {
@@ -240,6 +291,11 @@ input {
       color: white; }
       .section-1 .sub-1 p strong {
         color: #ff8e00; }
+  @media (min-width: 1081px) and (max-width: 1280px) {
+    .section-1 .section-center {
+      width: 1081px !important; }
+    .section-1 .sub-1 .sc-2 {
+      padding: 35px 0px 20px 0px; } }
   @media (min-width: 769px) and (max-width: 1080px) {
     .section-1 .section-center {
       width: 770px !important; }
@@ -256,6 +312,32 @@ input {
         font-size: 10pt; }
       .section-1 .sub-1 .sc-2 p {
         font-size: 10pt; } }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .section-1 .section-center {
+      width: 485px !important; }
+    .section-1 .sc-1 {
+      padding: 75px 0px 40px 0px; }
+      .section-1 .sc-1 h1 {
+        font-size: 30pt; }
+      .section-1 .sc-1 p {
+        font-size: 14pt; }
+    .section-1 .sub-1 {
+      height: 305px; }
+      .section-1 .sub-1 form {
+        padding: 15px 40px 15px 40px; }
+      .section-1 .sub-1 .sc-2 {
+        padding: 35px 0px 20px 0px; }
+        .section-1 .sub-1 .sc-2 h1 {
+          font-size: 24pt; }
+        .section-1 .sub-1 .sc-2 input {
+          width: 183px;
+          font-size: 10pt;
+          padding: 17px; }
+        .section-1 .sub-1 .sc-2 button {
+          width: 183px;
+          font-size: 10pt; }
+        .section-1 .sub-1 .sc-2 p {
+          font-size: 10pt; } }
 
 .section-2 {
   height: 887px;
@@ -324,6 +406,42 @@ input {
       padding: 0 20px 20px 20px; }
       .section-2 .sc-1 .r2 > p:nth-child(1) {
         padding-top: 0px; }
+  @media (min-width: 1081px) and (max-width: 1280px) {
+    .section-2 .section-center {
+      width: 1081px !important; }
+    .section-2 .sc-1 h2 {
+      font-size: 12pt; }
+    .section-2 .sc-1 .right div,
+    .section-2 .sc-1 .left div {
+      height: 156px !important;
+      background-size: contain; }
+    .section-2 .sc-1 .right {
+      width: 200px; }
+      .section-2 .sc-1 .right > p {
+        font-size: 12pt; }
+    .section-2 .sc-1 .left {
+      width: 280px; }
+      .section-2 .sc-1 .left > p {
+        font-size: 14pt; }
+    .section-2 .sc-1 .circle {
+      width: 156px;
+      font-size: 10pt;
+      padding-top: 40px; }
+    .section-2 .sc-1 .r1 {
+      box-sizing: border-box;
+      padding: 16px 50px 0px 31px; }
+      .section-2 .sc-1 .r1 .circle:nth-child(n) {
+        width: 170px !important;
+        font-size: 8pt;
+        background-size: contain; }
+      .section-2 .sc-1 .r1 .circle:nth-child(1) {
+        float: none;
+        font-size: 10pt;
+        padding-top: 50px;
+        position: relative; }
+      .section-2 .sc-1 .r1 .circle:nth-child(2) {
+        loat: none;
+        padding-top: 35px; } }
   @media (min-width: 769px) and (max-width: 1080px) {
     .section-2 .section-center {
       width: 770px !important; }
@@ -361,6 +479,35 @@ input {
         .section-2 .sc-1 .r1 .circle:nth-child(2) {
           float: right;
           padding-top: 35px; } }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .section-2 .section-center {
+      width: 481px !important; }
+    .section-2 h1 {
+      font-size: 20pt; }
+    .section-2 .sc-1 {
+      background-size: contain;
+      background-position: 15px 155px !important;
+      height: 832px; }
+      .section-2 .sc-1 .r2,
+      .section-2 .sc-1 .r1 {
+        padding: 20px 20px 20px 20px;
+        width: 100%;
+        float: left;
+        box-sizing: border-box; }
+      .section-2 .sc-1 .right > p {
+        text-shadow: 2px 1px 0px white; }
+      .section-2 .sc-1 .right .circle {
+        display: none; }
+      .section-2 .sc-1 .left {
+        float: left;
+        width: 100%;
+        box-sizing: border-box; }
+        .section-2 .sc-1 .left > p {
+          text-shadow: 2px 1px 0px white; }
+        .section-2 .sc-1 .left .circle {
+          display: none; }
+      .section-2 .sc-1 h2 {
+        text-align: center; } }
 
 .section-3 {
   height: 689px;
@@ -422,13 +569,26 @@ input {
       .section-3 .sc-2 button A {
         text-decoration: none;
         color: white; }
+  @media (min-width: 1081px) and (max-width: 1280px) {
+    .section-3 {
+      padding: 150px 0px 0px 0px; } }
   @media (min-width: 769px) and (max-width: 1080px) {
     .section-3 {
       padding: 150px 0px 0px 0px !important; }
     .section-3 .sc-1 {
       width: 770px; }
       .section-3 .sc-1 div h1 {
-        font-size: 14pt; } }
+        font-size: 12pt; } }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .section-3 {
+      padding: 150px 0px 0px 0px;
+      clear: both; }
+    .section-3 .sc-1 {
+      width: 481px; }
+      .section-3 .sc-1 div {
+        clear: both; }
+        .section-3 .sc-1 div h1 {
+          font-size: 10pt; } }
 
 .section-4 {
   height: 907px;
@@ -584,6 +744,11 @@ input {
         .section-4 .sc-2 form button A {
           text-decoration: none;
           color: white; }
+  @media (min-width: 1081px) and (max-width: 1280px) {
+    .section-4 .section-center {
+      width: 1081px; }
+    .section-4 .sc-1 {
+      padding: 60px 0px 0px 70px; } }
   @media (min-width: 769px) and (max-width: 1080px) {
     .section-4 .section-4 {
       min-width: 770px; }
@@ -632,7 +797,78 @@ input {
           background: #ff8e00;
           float: left;
           margin-left: -45px;
-          margin-top: -190px; } }
+          margin-top: -190px; }
+    .section-4 .sc-2 .catalog {
+      position: absolute;
+      z-index: 2; }
+      .section-4 .sc-2 .catalog img {
+        width: 469px;
+        margin-top: 219px; }
+    .section-4 .sc-2 form {
+      margin-top: 31px;
+      z-index: 1;
+      position: absolute;
+      right: 20px;
+      float: none; } }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .section-4 {
+      min-width: 481px;
+      height: 1090px; }
+    .section-4 .sc-1 {
+      width: 481px !important;
+      padding: 60px 0px 0px 0px;
+      height: 730px; }
+      .section-4 .sc-1 h1 {
+        font-size: 24pt;
+        text-align: center; }
+      .section-4 .sc-1 h1 + hr {
+        float: none;
+        margin: 20px auto; }
+      .section-4 .sc-1 .rect {
+        top: 40px; }
+        .section-4 .sc-1 .rect .item {
+          height: 250px;
+          margin-right: 0px; }
+          .section-4 .sc-1 .rect .item h6 {
+            font-size: 12pt; }
+          .section-4 .sc-1 .rect .item:last-child {
+            margin-right: 0px; }
+          .section-4 .sc-1 .rect .item:nth-child(4) {
+            margin-left: 75px; }
+        .section-4 .sc-1 .rect .item:nth-child(1) {
+          margin-top: 0px; }
+        .section-4 .sc-1 .rect .item:nth-child(2) {
+          margin-top: 0px; }
+        .section-4 .sc-1 .rect .item:nth-child(2):after {
+          content: '';
+          display: none; }
+        .section-4 .sc-1 .rect .item:nth-child(3) {
+          margin-top: 0px; }
+        .section-4 .sc-1 .rect .item:nth-child(3):after {
+          content: '';
+          display: none; }
+        .section-4 .sc-1 .rect .item:nth-child(4) {
+          margin-top: 0px; }
+        .section-4 .sc-1 .rect .item:nth-child(4):after {
+          content: '';
+          display: none; }
+        .section-4 .sc-1 .rect .item:nth-child(5) {
+          margin-top: 0px; }
+        .section-4 .sc-1 .rect .item:nth-child(5):after {
+          content: '';
+          display: none; }
+    .section-4 .sc-2 .catalog {
+      display: none; }
+    .section-4 .sc-2 form {
+      width: 481px;
+      height: 300px;
+      background: #211061;
+      box-sizing: border-box;
+      padding: 20px 30px 30px 30px;
+      margin-top: 35px; }
+      .section-4 .sc-2 form input,
+      .section-4 .sc-2 form button {
+        width: 100%; } }
 
 .section-5 {
   height: 1682px; }
@@ -771,6 +1007,48 @@ input {
           .section-5 .sc-1 .group .new-project button a {
             text-decoration: none;
             color: white; }
+  @media (min-width: 1081px) and (max-width: 1280px) {
+    .section-5 .section-center {
+      width: 1081px; }
+    .section-5 .sc-1 .group {
+      padding: 30px 100px 0px 100px; } }
+  @media (min-width: 769px) and (max-width: 1080px) {
+    .section-5 .section-center {
+      width: 770px; }
+    .section-5 .sc-1 > h1 {
+      font-size: 32pt; }
+    .section-5 .sc-1 > h2 {
+      font-size: 24pt; }
+    .section-5 .sc-1 .group .new-project {
+      width: 310px;
+      padding: 35px 20px 30px 20px;
+      height: 175px;
+      margin-top: 156px; }
+      .section-5 .sc-1 .group .new-project h1 {
+        font-size: 16pt; }
+    .section-5 .sc-1 .group .project {
+      width: 310px;
+      height: 460px; }
+      .section-5 .sc-1 .group .project h1 {
+        font-size: 20pt; }
+      .section-5 .sc-1 .group .project p {
+        font-size: 8pt; }
+      .section-5 .sc-1 .group .project img {
+        width: 310px; }
+      .section-5 .sc-1 .group .project button {
+        margin-left: 15px; } }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .section-5 .section-center {
+      width: 481px; }
+    .section-5 .sc-1 > h1 {
+      font-size: 18pt; }
+    .section-5 .sc-1 > h2 {
+      font-size: 14pt; }
+    .section-5 .sc-1 > p {
+      padding: 25px 0px 25px 0px; }
+    .section-5 .sc-1 .group .new-project {
+      margin-top: 0px;
+      margin-bottom: 20px; } }
 
 .section-6 {
   height: 235px;
@@ -899,6 +1177,72 @@ input {
         .section-6 .right form button A {
           text-decoration: none;
           color: white; }
+  @media (min-width: 1081px) and (max-width: 1280px) {
+    .section-6 .section-center {
+      width: 1081px;
+      min-width: 1081px; }
+      .section-6 .section-center .left {
+        width: 279px; }
+      .section-6 .section-center .middle {
+        width: 420px; }
+        .section-6 .section-center .middle .home {
+          width: 200px;
+          margin-top: 40px;
+          margin-left: 20px; }
+          .section-6 .section-center .middle .home img {
+            width: 100%; }
+      .section-6 .section-center .rig .right {
+        width: 250px; } }
+  @media (min-width: 769px) and (max-width: 1080px) {
+    .section-6 .section-center {
+      width: 770px;
+      min-width: 770px; }
+      .section-6 .section-center .left {
+        width: 325px; }
+        .section-6 .section-center .left h2 {
+          font-size: 14pt; }
+      .section-6 .section-center .middle {
+        width: 320px;
+        display: none; }
+        .section-6 .section-center .middle .load {
+          width: 100%;
+          position: relative; }
+          .section-6 .section-center .middle .load a {
+            top: -118px;
+            margin-left: 249px;
+            position: absolute; }
+          .section-6 .section-center .middle .load h1 {
+            padding-top: 0px; }
+          .section-6 .section-center .middle .load p {
+            padding-top: 0px; }
+        .section-6 .section-center .middle .home {
+          width: 200px;
+          margin-top: 0px;
+          margin-left: 20px; }
+          .section-6 .section-center .middle .home img {
+            width: 100%; }
+      .section-6 .section-center .right {
+        width: 200px; } }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .section-6 {
+      background: #211061; }
+    .section-6 .section-center {
+      width: 481px;
+      min-width: 481px; }
+      .section-6 .section-center .left {
+        width: 200px;
+        display: none; }
+        .section-6 .section-center .left h2 {
+          font-size: 14pt; }
+      .section-6 .section-center .middle {
+        display: none; }
+      .section-6 .section-center .right {
+        background: transparent;
+        width: 450px; }
+        .section-6 .section-center .right form input {
+          width: 100%; }
+        .section-6 .section-center .right form button {
+          margin-left: 55px; } }
 
 .section-7 {
   height: 1220px; }
@@ -1023,6 +1367,26 @@ input {
         .section-7 .sc-1 .row button A {
           text-decoration: none;
           color: white; }
+  @media (min-width: 1081px) and (max-width: 1280px) {
+    .section-7 {
+      height: 1285px; }
+    .section-7 .section-center {
+      width: 1081px; }
+    .section-7 .sc-1 .group .item {
+      width: 145px;
+      margin-left: 95px !important; }
+      .section-7 .sc-1 .group .item:first-child {
+        margin-left: 0px !important; }
+    .section-7 .sc-1 .group-1 {
+      height: 300px; }
+      .section-7 .sc-1 .group-1:after {
+        width: 770px; }
+    .section-7 .sc-1 .group-2 {
+      height: 380px; }
+      .section-7 .sc-1 .group-2:after {
+        width: 500px; }
+      .section-7 .sc-1 .group-2 .item:first-child {
+        margin-left: 145px !important; } }
 
 .section-8 {
   height: 450px;
@@ -2389,22 +2753,20 @@ input {
   	background: black;
   }*/ }
 @media (min-width: 1081px) and (max-width: 1280px) {
-  /*.footer,
+  .footer,
   .section,
-  .header {		
-  	min-width: 1080px;
-  }*/ }
+  .header {
+    min-width: 1080px; } }
 @media (min-width: 769px) and (max-width: 1080px) {
   .footer,
   .section,
   .header {
     min-width: 770px; } }
 @media (min-width: 481px) and (max-width: 768px) {
-  /*	.footer,
+  .footer,
   .section,
-  .header {		
-  	min-width: 485px;
-  }*/ }
+  .header {
+    min-width: 485px; } }
 @media (max-width: 480px) {
   /*.footer,
   .section,
