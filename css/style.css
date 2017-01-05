@@ -423,6 +423,8 @@ input {
         text-decoration: none;
         color: white; }
   @media (min-width: 769px) and (max-width: 1080px) {
+    .section-3 {
+      padding: 150px 0px 0px 0px !important; }
     .section-3 .sc-1 {
       width: 770px; }
       .section-3 .sc-1 div h1 {

@@ -519,7 +519,12 @@ input {
 		}
 	}
 	@media (min-width:769px) and (max-width:1080px) {
+		
+		& {
+			padding: 150px 0px 0px 0px !important;
+		}
 		.sc-1 {
+			
 			width: 770px;
 			div {
 				h1 {
@@ -527,6 +532,7 @@ input {
 				}
 			}
 		}
+		
 	}
 }
 
@@ -606,6 +612,8 @@ input {
 			width: 1065px;
 			padding: 0;
 		}
+		
+		
 		.catalog {
 			float: left;
 			margin-top: -200px;
@@ -639,6 +647,8 @@ input {
 		.section-4 {
 			min-width: 770px;
 		}
+		
+		
 		.sc-1 {
 			width: 770px !important;
 			padding: 60px 0px 0px 0px;
